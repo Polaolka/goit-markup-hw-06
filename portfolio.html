@@ -203,31 +203,31 @@
 		</main>
 		<footer>
 			<div class="container flex-wrapper">
-				<div class="contacts">
-					<a href="./index.html" class="logo footer-logo">
-						<span>Web</span>
-						Studio
-					</a>
-					<address>
-						<ul class="list">
-							<li class="physical-adress">
-								<a
-									href="https://goo.gl/maps/3icZk8ziE2WaZkWX6"
-									target="_blank"
-									rel="noopener noreferrer"
-									class="footer-link"
-								>
-									м. Київ, пр-т Лесі Українки, 26
-								</a>
-							</li>
-							<li><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
-							<li><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
-						</ul>
-					</address>
-				</div>
-				<section class="join">
-					<h2 class="join-title">приєднуйтесь</h2>
-					<div>
+				<div class="footer-wrapper">
+					<div class="contacts">
+						<a href="./index.html" class="logo footer-logo">
+							<span>Web</span>
+							Studio
+						</a>
+						<address>
+							<ul class="list">
+								<li class="physical-adress">
+									<a
+										href="https://goo.gl/maps/3icZk8ziE2WaZkWX6"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="footer-link"
+									>
+										м. Київ, пр-т Лесі Українки, 26
+									</a>
+								</li>
+								<li><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
+								<li><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
+							</ul>
+						</address>
+					</div>
+					<div class="join">
+						<h2 class="join-title">приєднуйтесь</h2>
 						<ul class="list flex-wrapper">
 							<li class="li-social">
 								<a class="link-social" href="#" target="_blank" rel="noopener norefer">
@@ -259,7 +259,21 @@
 							</li>
 						</ul>
 					</div>
-				</section>
+				</div>
+				<div class="subscribe">
+					<h2 class="join-title">Підпишіться на розсилку</h2>
+					<form class="subscribe-form">
+						<div class="send-block">
+						<label class="visually-hidden" for="email">email</label>
+						<input class="subscr-input" type="email" name="email" placeholder="E-mail" id="email"/>
+						<button class="button-main send-btn" type="submit">Підписатися
+							<svg class="icon-send">
+								<use href="./images/icons.svg#icon-send"></use>
+							</svg>
+						</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</footer>
 	</body>

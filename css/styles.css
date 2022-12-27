@@ -534,6 +534,10 @@ footer .social-icon {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
 }
 .subscribe-form input::placeholder {
     font-size: 16px;
@@ -730,6 +734,7 @@ overflow: hidden;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    background-color: var(--white-color);
     
 }
 
@@ -861,7 +866,7 @@ textarea {
 .checkbox-block {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 
 .checkbox-block a {
